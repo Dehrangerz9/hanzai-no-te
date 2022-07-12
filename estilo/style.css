@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Poiret+One&display=swap');
+
+:root{
+    --cor0: rgb(197, 235, 214);
+    --cor1: rgb(0, 1, 3);
+    --cor2: #4901EB;
+    --cor3: #2F009E;
+    --cor4: #EBDA00;
+    --fonte-destaque: 'Big Shoulders Display';
+    --fonte-padrao: 'Poiret One'
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+header{
+    background-image: url(../imagens/fundo-cidade.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+header h1 {
+    font-family: var(--fonte-destaque);
+    font-weight: 300;
+    color: white;
+    font-size: 5em;
+}
+
+header p {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 2em;
+}
+
+nav{
+    background-color: var(--cor3);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 10px;
+    
+}
+
+nav > a {
+    margin: 10px;
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+main{
+    margin: auto;
+    text-align: justify;
+    width: 500px;
+}
+
+a#join-gang{
+    text-decoration: none;
+    font-size: 2em;
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor3);
+    padding: 10px;
+    color: white;
+    border-radius: 25px;
+}
+
+a#join-gang:hover{
+    border: 2px solid var(--cor4);
+    color: #EBDA00;
+    transition: border 1s;
+
+}
+
+main p {
+    color: white;
+    
+}
+
+main ul{
+    color: white;
+}
